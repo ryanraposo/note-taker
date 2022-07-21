@@ -3,7 +3,7 @@ const path = require('path');
 const router = require('express').Router();
 const { uid } = require('uid');
 const { createNewNote, validateNote } = require('../../lib/notes');
-const { notes } = require('../../db/db.json');
+const { notes } = require('../../data/notes');
 
 
 router.get('/notes', (req, res) => {
