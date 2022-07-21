@@ -28,4 +28,15 @@ router.post('/notes', (req, res) => {
 });
 
 
+router.delete('/notes/:id', (req, res) => {
+    notes.forEach((note, index) => {
+        if (note.id == req.params.id) {
+            notes.splice(index, 1);
+        }
+    })
+    fs.writeFileSync(path.join(__dirname, "../../data/notes.json"), JSON.stringify(notes));
+    res.json(notes);
+});
+
+
 module.exports = router;

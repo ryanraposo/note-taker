@@ -1,18 +1,9 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "fdsf",
-      "text": "fdsfdf",
-      "id": "a06a70c8e72"
-    },
-    {
-      "title": "fdsf",
-      "text": "fdsff",
-      "id": "06a70c8e726"
+      "title": "A cool note",
+      "text": "This is my first note",
+      "id": "9f3941482cf"
     }
   ]
 }
